@@ -1,16 +1,53 @@
-# React + Vite
+👥 Employee Management System:
+-------------------------------
+The Employee Management Module is used to manage employee information for each store. Each employee is mapped to a specific store and the Admin can perform complete CRUD operations along with filtering and searching functionalities. This helps in efficiently tracking staff details and organizing workforce distribution across all stores.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🏬 Store & Employee Mapping:
+----------------------------
+-> Each employee is associated with a specific store using One-to-Many / Many-to-One relationship.
+-> Admin can view employees belonging to a selected store.
+-> Helps in tracking staff allocation store-wise.
 
-Currently, two official plugins are available:
+🔧 Core Functionalities:
+-------------------------
+➕ **Add Employee:** Admin can register a new employee with details such as name, phone number, gender, address, and assigned store.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✏️ **Update Employee**
 
-## React Compiler
+Modify employee details like phone number, address, or shift location.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🗑️ Remove Employee
 
-## Expanding the ESLint configuration
+Delete employee records when they leave the company or change stores.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📄 Fetch Employee Details
+
+View all employees working under a specific store.
+
+Display complete employee profile and store assignment.
+
+🔎 Filter & Search Options
+
+🔢 Filter by Employee ID
+
+📞 Filter by Employee Phone Number
+
+🏷️ Filter by Store Assignment
+
+🔍 Search employees by name or gender
+
+💻 Technical Highlights
+
+Backend: Java, Spring Boot, Hibernate (JPA)
+
+Frontend: ReactJS / HTML, CSS, JavaScript
+
+Database: MySQL (Employee table mapped with Store table)
+
+Architecture: RESTful APIs, MVC Design Pattern
+
+Annotations Used: @Entity, @ManyToOne, @OneToMany, @Id, @Column
+
+🎯 Outcome
+
+The Employee Management module helps admins effectively maintain employee records, ensure store-wise allocation, and quickly retrieve or update employee information using advanced filtering and search features.
