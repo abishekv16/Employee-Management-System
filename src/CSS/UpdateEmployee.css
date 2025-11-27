@@ -1,0 +1,186 @@
+.outerUpdate{
+    height: 94vh;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* background-color: #40c3f8; */
+    background: linear-gradient(to right,#00c6ff,#0072ff);
+    
+    gap: 50px;
+}
+
+.outerUpdate>.updateDetails{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    padding: 10PX;
+    margin-top: 10PX;
+    background: linear-gradient(to right ,#46a0cd,#9CECFB);
+    border-radius: 60px;
+}
+
+.outerUpdate>.updateDetails>.updateCard{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    /* border: 2px solid;    */
+    height: 200px;   
+    width: 400px;   
+
+}
+
+.outerUpdate>.updateDetails>.updateCard>.heading{
+    /* border: 2px solid; */
+    width: 160px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.outerUpdate>.updateDetails>.newCard{
+     /* border: 2px solid; */
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    height: 200px;
+    width: 400px;
+}
+
+.outerUpdate>.updateEmpDetails{
+    /* border: 3px solid violet; */
+    display: flex;  
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    width: 50%;
+    /* padding: 10px; */
+}
+
+.outerUpdate>.updateEmpDetails>.i1{
+    /* border: 2px solid; */
+    width: 200px;
+
+}
+
+.outerUpdate>.updateEmpDetails>input{
+    /* border: 2px solid firebrick ;     */
+    padding: 10px;
+    width: 300px;
+
+}
+
+.outerUpdate>.updateEmpDetails>.options>select{
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+
+.updateButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* border: 2px solid; */
+    width: 100%;
+}
+
+.updateButton>#u1{
+ padding: 10px;
+  width: 100px;
+  border-radius:10px ;
+  background: linear-gradient(to right ,#FF00BF,#F9629F);
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+
+  &&:hover{
+    background: linear-gradient(to right, #FF69B4,#FFC0CB);
+    box-shadow: 0px 0px 5px white;
+    
+
+  }
+
+
+}
+
+
+         
+ /* .updateButton>#back1{
+  padding: 10px;
+  width: 100px;
+  border-radius:10px ;
+  background-color: #bb07cf;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 1px sold aliceblue;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+
+  &&:hover{
+    background-color: #6b07a5;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px white;
+    color: white;
+
+  }
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .outerUpdate>.updateStore>.options>select>option{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* 
+.outerUpdate>.updateButton{
+    border: 2px solid pink;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+} */
+
+/* .outerUpdate>.updateButton>button{
+    padding: 10px;
+    width: 200px;
+    border: none;
+    background-color: tomato;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+} */
+
+

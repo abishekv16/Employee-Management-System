@@ -1,0 +1,249 @@
+.outerEmployee{
+  min-height: 94vh;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: #40c3f8; */
+    background: linear-gradient(to right,#00c6ff,#0072ff);
+  gap: 30px;
+  padding: 20px;
+  
+
+}
+
+.inner1{
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.inner1>.selection>p{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.inner1>select{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inner1>.selection{
+  width: 300px;
+  /* border: 2px solid; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.inner1>.options{
+  /* border: 2px solid ; */
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner1>.options>select{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.outerEmployee>.inner1>.button{
+
+  /* border: 2px solid; */
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.outerEmployee>.inner1>.button>#search{
+  padding: 8px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  background:linear-gradient(to right,#009900,#00FA9A);
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: white;
+  cursor: pointer;
+  &&:hover{
+   background-color: #0BDA51;
+     color: black;
+     box-shadow: 0px 0px 5px gray;
+  }
+}
+
+
+
+.buttonss{
+  width: 100%;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ #b1{
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(136, 46, 164);
+  color: white;
+  margin: 10px 10px ;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &&:hover{
+    background-color:rgb(194, 39, 241) ;
+    box-shadow: 0px 0px 5px white;
+    /* color: black; */
+  }
+}
+
+
+
+#reset{
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: #F05F57;
+  text-transform:uppercase;
+  color: white;
+  margin: 10px 10px ;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+
+  &&:hover{
+    background-color:#E80505 ;
+    box-shadow: 0px 0px 5px white;
+    /* color: black; */
+  }
+}
+
+.inner2{
+  width: 100%;
+  /* border: 2px solid blue; */
+  /* background-color: red; */
+}
+
+.inner2>.card{
+  /* height: max-content; */
+  /* border: 2px solid yellow; */
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 50px;
+   /* margin-top: 20px; */
+ 
+ 
+}
+
+.inner2>.card>.empCard{
+  /* height: 300px; */
+  width: 500px;
+  /* border: 2px solid; */
+  
+  padding: 20px ;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content:space-evenly;
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  gap: 20px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+   &&:hover{
+      cursor: pointer;
+      background-color: #c9d6ff; 
+      transform: translateY(-3px);
+      transition: 0.2s ease-in-out;
+      /* box-shadow: 0 6px 12px rgba(0,0,0,0.15); */
+  }
+}
+
+.inner2>.card>p{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.inner2>.card>.empCard>.emp-card{
+  /* border: 2px solid; */
+  width: 100%;
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 10px;
+}
+.inner2>.card>.empCard>.emp-card>.empLabels{
+  /* border: 2px solid ; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-end;
+  gap: 5px;
+  
+
+}
+
+.inner2>.card>.empCard>.emp-card>.empLabels>.heading{
+  /* border: 2px solid ; */
+  width: 150px;
+  
+}
+
+.inner2>.card>.empCard>.emp-card>.empValues{
+  /* border: 2px solid ; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  
+  
+}
+
+.inner2>.card>.empCard>.emp-card>.empLabels>p{
+  font-size: 18px;
+  font-weight: 500;
+} 
+
+.inner2>.card>.empCard>.emp-card>.empValues>p{
+   font-size: 18px;
+  font-weight: 700;
+}
+
+
+

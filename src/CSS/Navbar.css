@@ -1,0 +1,18 @@
+
+nav{
+  height:6vh;
+  background:linear-gradient( to right,#40c3f8,#40c3f8,#40c3f8, white,#40c3f8,#40c3f8, #40c3f8);
+  /* background: linear-gradient(to right,#E0FFFF,#00BFFF,#E0FFFF,#E0FFFF,#00BFFF,#E0FFFF); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid; */
+  /* border-bottom: 3px solid white;
+  border-radius: 10px; */
+}
+
+nav > h1{
+  text-align: center;
+  text-transform: uppercase;
+
+}

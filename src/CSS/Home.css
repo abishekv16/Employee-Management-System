@@ -1,0 +1,113 @@
+
+.homepage{
+  height:94vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: #40c3f8; */
+  /* background: linear-gradient(to right,#E0FFFF,#00BFFF,#E0FFFF); */
+    background: linear-gradient(to right,#00c6ff,#0072ff);
+  padding: 70px;
+}
+
+.homepage > .left{
+ 
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 50px;
+  /* background-color: aliceblue; */
+  padding: 100px;
+}
+
+.homepage > .left > h1{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  text-shadow:0px 0px 5px white;
+}
+
+.homepage > .left > img{
+  height: 350px;
+
+}
+
+.homepage > .right{
+  
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 60px;
+  padding: 100px;
+  /* background-color: #ccc; */
+}
+
+.homepage > .right > h2{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  text-shadow:0px 0px 5px white;
+  font-size: 30px;
+  margin-bottom: 20px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.homepage > .right >.login{
+  /* border: 2px solid red; */
+  /* height: 350px; */
+  width: 400px; 
+  /* background-color: white; */
+  background: linear-gradient(to right,#00D4FF,#8888f6);
+  border-radius: 30px;
+  padding: 15px 25px;
+  box-shadow: 0px 0px 15px rgb(234, 210, 208);
+  
+}
+
+.homepage > .right >.login > form > input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+}
+
+.homepage > .right >.login >form > label{
+ 
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+.homepage > .right >.login >form >button{
+  
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color:#2ca148;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: all 0.2s ease;
+  color:white;
+
+  &:hover{
+    background-color:#45e230;
+  }
+}
+
+mark{
+  border-radius: 20px;
+  border: 2px solid;
+  
+}

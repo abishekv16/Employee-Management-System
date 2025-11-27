@@ -1,0 +1,127 @@
+.outerEmp{
+    height: 94vh;
+    /* border: 2px solid black; */
+    /* background-color: #40c3f8; */
+     background: linear-gradient(to right,#00c6ff,#0072ff);
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.leftEmp{
+    /* border: 2px solid red; */
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color:lavender ; */
+    /* border-radius: 50px; */
+    
+}
+
+.leftEmp>img{
+    /* height: 400px; */
+    width: 400px;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    box-shadow: 0px 0px 8px gray;
+   
+}
+.leftEmp>h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    text-shadow:0px 0px 5px white;
+}
+
+.leftEmp>button{
+    width: 200px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.rightEmp{
+    /* border: 2px solid yellow; */
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    background-color: #1c92d2;
+    /* background: linear-gradient(to right,#00B4DB,#0083b0); */
+    border-radius: 50px;
+    box-shadow: 0px 0px 3px 2px whitesmoke;
+}
+
+.rightEmp>.buttons>button{
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 10px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+#a1{
+    /* background:linear-gradient(to right,#52c234,#23650b) ; */
+    background-color: rgb(16, 145, 16);
+    &&:hover{
+        background-color: #20da4b;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px gray;
+    }
+}
+
+#f1{
+    background-color: #EF629F;
+    &&:hover{
+        background-color: #FF0099;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px gray;
+    }
+}
+
+#e1{
+    background-color:#e70000;
+    &&:hover{
+        background-color: #ff0000;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px gray;
+    }
+}
+
+
+
+#b2{
+    background-color: #dd0bbed0;
+    letter-spacing: 1px;
+    font-size: 15px;
+
+    padding: 10px;
+    &&:hover{
+        background-color: #b137a0;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px gray;
+    }
+}
