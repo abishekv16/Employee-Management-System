@@ -43,7 +43,7 @@ useEffect (()=>{
   let fetchById= async()=>{
     try {
           let empIdRes = (await axios.get(`http://localhost:8080/fetchEmployeeByEmpId?id=${empId}`)).data
-          // console.log( empIdRes);
+         
           setEmpDetailsId(empIdRes)
 
          setEmpPhone(empIdRes.employeePhone)
@@ -70,7 +70,7 @@ try {
     
     try {
             let storeRes = (await axios.get(`http://localhost:8080/getAllStoreLoc`)).data
-            // console.log(storeRes)/
+           
             setStoreLocList(storeRes)
     } catch (error) {
       console.log(error);
@@ -135,7 +135,7 @@ if(empAddress==""){
 
     try {
           let updateRes = (await axios.put(`http://localhost:8080/updateEmployee?id=${empId}`,updatedEmp)).data
-          console.log(updateRes);
+    
          
           
     } catch (error) {

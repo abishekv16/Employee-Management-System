@@ -35,7 +35,7 @@ useEffect (()=>{
   let fetchStore = async()=>{
     try {
             let storeRes = (await axios.get(`http://localhost:8080/getAllStoreLoc`)).data
-            console.log(storeRes)
+  
             setStoreLocList(storeRes)
     } catch (error) {
       
@@ -50,7 +50,7 @@ let fetchEmpByStore = async()=>{
   setdefaultState(false)
   try {
         let empRes = (await axios.get(`http://localhost:8080/fetchAllEmployeeByStoreLoc?loc=${selectedStore}`)).data
-        console.log(empRes);
+  
         setStoreLocEmp(empRes)
 
   } catch (error) {

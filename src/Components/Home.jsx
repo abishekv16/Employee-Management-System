@@ -4,7 +4,7 @@ import {Link, useNavigate} from 'react-router-dom'
 import axios from 'axios'
 import '../CSS/Home.CSS'
 import login_img from '../assets/Login.png'
-// 1
+
 const Home = () => {
 
   let [email,setEmail]=useState("")

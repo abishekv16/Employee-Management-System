@@ -42,7 +42,6 @@ useEffect (()=>{
   let fetchStore = async()=>{
     try {
             let storeRes = (await axios.get(`http://localhost:8080/getAllStoreLoc`)).data
-            console.log(storeRes)
             setStoreLocList(storeRes)
     } catch (error) {
       
@@ -60,7 +59,6 @@ let fetchEmpByStore = async()=>{
   setEmpPhoneState(false)
   try {
         let empRes = (await axios.get(`http://localhost:8080/fetchAllEmployeeByStoreLoc?loc=${selectedStore}`)).data
-        console.log(empRes);
         setStoreLocEmp(empRes)
 
   } catch (error) {
@@ -76,7 +74,7 @@ let fetchEmpById = async()=>{
  
   try {
           let empIdRes = (await axios.get(`http://localhost:8080/fetchEmployeeByEmpId?id=${empId}`)).data
-          console.log(typeof empIdRes);
+
           setEmpDetailsId(empIdRes)
           fetchStoreByEmpId(empId)
 
@@ -92,8 +90,7 @@ let fetchEmpByPhone = async()=>{
  setEmpPhoneState(true)
   try {
         let empPhoneRes = (await axios.get(`http://localhost:8080/fetchAllEmployeeByEmpPhone?phone=${empPhone}`)).data
-        console.log(typeof empPhoneRes)
-        console.log( empPhoneRes)
+
         setEmpDetailsPhone(empPhoneRes)
         fetchStoreByEmpId(empPhoneRes.employeeId)
   } catch (error) {
@@ -107,7 +104,7 @@ let fetchStoreByEmpId = async(empid)=>{
   try {
     
         let storeObj = (await axios.get(`http://localhost:8080/getStoreByEmp?id=${empid}`)).data
-        console.log(storeObj)
+ 
         setStoreByEmpId(storeObj)
         
   } catch (error) {
